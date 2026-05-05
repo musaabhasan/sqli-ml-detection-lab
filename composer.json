@@ -1,0 +1,21 @@
+{
+  "name": "musaabhasan/sqli-ml-detection-lab",
+  "description": "PHP/MySQL research portal based on the SQL injection machine learning detection paper by Hasan, Balbahaith, and Tarique.",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SqliLab\\": "src/"
+    }
+  },
+  "scripts": {
+    "lint": "php -d display_errors=1 bin/lint.php",
+    "test": "php -d display_errors=1 bin/test.php"
+  }
+}
