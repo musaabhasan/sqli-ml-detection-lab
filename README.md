@@ -1,4 +1,4 @@
-﻿# SQLi ML Detection Lab
+# SQLi ML Detection Lab
 
 A PHP 8.x and MySQL 8.0 research portal inspired by the paper **"Detection of SQL Injection Attacks: A Machine Learning Approach"** by Musaab Hasan, Zayed Balbahaith, and Mohammed Tarique.
 
