@@ -15,6 +15,7 @@ The paper evaluated 23 machine learning classifiers on a dataset of 616 SQL stat
 - SQL statement detector with transparent feature extraction.
 - Feature set inspired by SQL injection syntax indicators discussed in the paper.
 - Dataset leakage and label-quality audit for duplicate payloads, source artifacts, split contamination, ambiguous labels, and SQL family coverage.
+- WAF bypass mutation evaluation protocol for testing robustness against encoding, comment, whitespace, keyword, dialect, and benign hard-case variants.
 - Model-card dashboard for the top classifiers reported in the paper.
 - MySQL schema for feature definitions, classifier profiles, detection events, experiments, and audit logs.
 - Local detector workflow that can be extended with exported trained models or external scoring services.
@@ -76,6 +77,7 @@ bin/                 Lint and test scripts
 - [Testing](docs/testing.md)
 - [ML Security Experiment Reproducibility Checklist](docs/ml-security-reproducibility-checklist.md)
 - [Dataset Leakage and Label Quality Audit](docs/dataset-leakage-label-quality-audit.md)
+- [SQLi WAF Bypass Mutation Evaluation Protocol](docs/waf-bypass-mutation-evaluation-protocol.md)
 - [Extension Guide](docs/extension-guide.md)
 
 ## Production Notes
