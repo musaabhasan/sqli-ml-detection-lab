@@ -67,6 +67,15 @@ docs/                Architecture, paper alignment, security, testing, and exten
 bin/                 Lint and test scripts
 ```
 
+## Documentation
+
+- [Architecture](docs/architecture.md)
+- [Paper Alignment](docs/paper-alignment.md)
+- [Security](docs/security.md)
+- [Testing](docs/testing.md)
+- [ML Security Experiment Reproducibility Checklist](docs/ml-security-reproducibility-checklist.md)
+- [Extension Guide](docs/extension-guide.md)
+
 ## Production Notes
 
 - Add authentication before collecting operational SQL statements.
